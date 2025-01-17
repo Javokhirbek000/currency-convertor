@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="pt-5">
+  <form class="form" id="form" class="w-75 border">
+    <div class="wrapper mb-3">
+      <input type="text" class="form-control w-75 m-auto" id="currencyInp" required>
+    </div>
+    <div class="wrapper mb-3">
+      <input type="text" class="form-control w-75 m-auto" id="currencyOutput" value="" readonly>
+      <!-- <span id="currencyOutput"></span> -->
+    </div>
+    <select name="" id="select" class="form-control w-75 m-auto mb-5">
+      <option value="currency">Currency</option>
+      <option value="usd">USD</option>
+      <option value="euro">EURO</option>
+      <option value="rubl">RUBL</option>
+    </select>
+    <div class="btn-group d-flex justify-content-center w-75 m-auto" style="column-gap: 10px;">
+      <button type="submit" class="btn btn-primary d-block m-auto">Convert</button>
+      <button type="reset" class="btn btn-danger d-block m-auto">Reset</button>
+    </div>
+  </form>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
