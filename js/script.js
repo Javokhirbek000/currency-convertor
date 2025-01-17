@@ -19,5 +19,7 @@ function submitForm(e) {
     currencyOutputInp.value = currencyInpValue * euroToSum;
   } else if (select === "rubl") {
     currencyOutputInp.value = currencyInpValue * rublToSum;
+  }else{
+    currencyOutputInp.value = 'Invalid currency'
   }
 }
